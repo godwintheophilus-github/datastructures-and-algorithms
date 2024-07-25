@@ -9,4 +9,4 @@ def find_pair(list,target_number):
                 continue
     return None
 
-print(find_pair(list,11))
+print(find_pair(list,3))

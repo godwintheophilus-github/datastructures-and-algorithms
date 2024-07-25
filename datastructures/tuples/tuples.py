@@ -11,3 +11,7 @@ print(test_tupple.count(11)) # output 4
 
 # retrive data based on index
 print(test_tupple[4]) # output 5
+
+# slicing the tupple
+
+print(test_tupple[4:]) # output (5, 6, 11, 11, 11, '11')

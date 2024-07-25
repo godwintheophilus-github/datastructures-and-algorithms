@@ -25,3 +25,20 @@ for key in test_dict:
 test_dict = {"a":1,"b":2}
 test_dict["a"]=3
 print(test_dict) # output {'a': 3, 'b': 2}
+
+# get method
+test_dict = {"a":1,"b":2}
+print(test_dict.get("a")) # output 1
+
+# items method
+print(test_dict.items()) # output dict_items([('a', 1), ('b', 2)])
+
+# keys method
+print(test_dict.keys()) #output dict_keys(['a', 'b'])
+
+# values method
+print(test_dict.values()) #output dict_values([1, 2])
+
+# len function
+print(len(test_dict.values())) #output 2
+
